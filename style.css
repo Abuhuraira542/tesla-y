@@ -27,6 +27,9 @@ section{
 .five{
     background-image: url(Homepage-Model-3-Desktop-US.avif);
 }
+.six{
+    background-image: url(Homepage-Accessories-Desktop-US.avif);
+}
 .content{
     position: relative;
     display: flex;
@@ -49,11 +52,11 @@ h2{
     gap: 2rem;
 }
 button{
-    padding: 0px 90px;
+    padding: 0px 70px;
     line-height: 25px;
     height: 40px;
     font-weight: 400;
-    letter-spacing: 20px;
+    letter-spacing: 17px;
     font-size: 1rem;
     border-radius: 2px;
     cursor: pointer;
@@ -66,3 +69,32 @@ button{
     background-color: white;
     color: black;
 }
+.primary:hover{
+    background-color: black;
+    color: aliceblue;
+    transition: 1s ease-in 1s;
+}
+.secondery:hover{
+    background-color: black;
+    color: white;
+    transition: 1s ease-in 1s;
+}
+/* footer{
+    text-decoration: none;
+    padding: 20px 400px;
+    background-color:rgb(24,125,155);
+    text-align: center;
+    float:center;
+    color: white;
+    word-spacing: 5px;
+}
+/* .style{ */
+    /* text-align: center;
+    display: flex;
+    justify-content: center; */
+/* } */
+/* .main{ */
+    /* height: 0px;
+    display: flex;
+    flex: content;
+} */ */
